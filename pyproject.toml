@@ -1,0 +1,15 @@
+[project]
+name = "medical-assistant-with-openai-sdk"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi[standard]>=0.116.1",
+    "google-api-python-client>=2.181.0",
+    "google-auth-httplib2>=0.2.0",
+    "google-auth-oauthlib>=1.2.2",
+    "gspread>=6.2.1",
+    "openai-agents>=0.3.0",
+    "uvicorn>=0.35.0",
+]
